@@ -1,0 +1,28 @@
+.content-first {
+    display: flex;
+    justify-content: space-around;
+    height: 350px;
+    background: rgb(229, 255, 0);
+    align-items: center;
+
+}
+
+.content-second {
+    display: flex;
+    justify-content: space-around;
+    height: 350px;
+    background: rgb(41, 230, 255);
+    align-items: center;
+}
+
+.block-1 {
+    width: 250px;
+    height: 250px;
+    background-color: blueviolet;
+}
+
+.block-2 {
+    width: 250px;
+    height: 250px;
+    background-color: rgb(226, 43, 73);
+}
