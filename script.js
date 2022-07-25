@@ -1,20 +1,19 @@
-let incr = 10,
-    decr = 10;
+const numberOfFilms = +prompt('How much movies you watching?', '?');
 
+const personalMovieDB = {
+    count: numberOfFilms,
+    movies: {},
+    actors: {},
+    genres: [],
+    privat: false
+};
 
-//++incr;
-//--decr;
+const a = prompt('Your Last One Film???', ''),
+    b = prompt('Rating? 1 - 10', ''),
+    c = prompt('Your Last One Film???', ''),
+    d = prompt('Rating? 1 - 10', '');
 
-//console.log(incr++);
-//console.log(decr--);
+    personalMovieDB.movies[a] = b;
+    personalMovieDB.movies[c] = d;
 
-//console.log(2 * 4 == '8');
-//console.log(2 * 4 === '8');
-
-
-//const isChecked = true,
-//islose = false;
-
-//console.log(isChecked || islose);
-
-//console.log((2 + 2) * 2 == '8');
+    console.log(personalMovieDB);
