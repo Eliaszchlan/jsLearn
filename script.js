@@ -1,19 +1,35 @@
-const numberOfFilms = +prompt('How much movies you watching?', '?');
+const germanCars = prompt('CAR???', '');
+const gC = 'bmw';
+const gD = 'vw';
+const gG = 'audi';
+const gT = 'opel';
+const gV = 'mb';
 
-const personalMovieDB = {
-    count: numberOfFilms,
-    movies: {},
-    actors: {},
-    genres: [],
-    privat: false
+switch (germanCars) {
+    case gC:
+        alert('OK!');
+        break;
+    case gD:
+        alert('OK!');
+        break;
+    case gG:
+        alert('OK!');
+        break;
+    case gT:
+        alert('OK!');
+        break;
+    case gV:
+        alert('OK!');
+        break;
+    default :
+        alert('ERROR!');
+        break;
 };
 
-const a = prompt('Your Last One Film???', ''),
-    b = prompt('Rating? 1 - 10', ''),
-    c = prompt('Your Last One Film???', ''),
-    d = prompt('Rating? 1 - 10', '');
 
-    personalMovieDB.movies[a] = b;
-    personalMovieDB.movies[c] = d;
 
-    console.log(personalMovieDB);
+
+
+
+
+
