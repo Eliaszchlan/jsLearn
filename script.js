@@ -1,35 +1,10 @@
-const germanCars = prompt('CAR???', '');
-const gC = 'bmw';
-const gD = 'vw';
-const gG = 'audi';
-const gT = 'opel';
-const gV = 'mb';
+let a = 30;
 
-switch (germanCars) {
-    case gC:
-        alert('OK!');
+for(let i = 0; i < 5; i++) {
+    if (i === 34) {
         break;
-    case gD:
-        alert('OK!');
-        break;
-    case gG:
-        alert('OK!');
-        break;
-    case gT:
-        alert('OK!');
-        break;
-    case gV:
-        alert('OK!');
-        break;
-    default :
-        alert('ERROR!');
-        break;
-};
-
-
-
-
-
-
-
-
+    }
+    console.log(a);
+    a++;
+    
+}
